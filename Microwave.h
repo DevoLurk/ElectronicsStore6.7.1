@@ -11,6 +11,7 @@ public:
 	Microwave();
 	Microwave(int power);
 	void show() override;
+	virtual ~Microwave();
 
 protected:
     int _power;                 // мощность ватт

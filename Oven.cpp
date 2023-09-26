@@ -15,7 +15,7 @@ void Oven::show()
 	std::cout << "\033[33m    Мульти Духовка  \033[0m" << std::endl;
 	std::cout << "MAX температура      " << _temp << std::endl;
 	std::cout << "Мощность(Вт)         " << _power << std::endl;
-	std::cout << "Обьем в литрах:      " << stoveSize << std::endl;
+	std::cout << "Обьем в литрах:      " << Stove::size << std::endl;
 	std::cout << "Цена:                " << price << std::endl;
 	std::cout << "Производитель:       " << mnfacturer << std::endl;
 }

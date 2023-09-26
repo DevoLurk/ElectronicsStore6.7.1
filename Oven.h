@@ -12,6 +12,7 @@ public:
 	Oven();
 	Oven(int temp, int power);
     void show() override;
+	virtual ~Oven();
 
 private:
 	int price;                  // цена

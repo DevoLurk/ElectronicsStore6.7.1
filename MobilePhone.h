@@ -11,6 +11,7 @@ public:
 	MobilePhone();
 	MobilePhone(int battaryCapyty, int memory, int simCnt);
 	MobilePhone(int battaryCapyty, int memory);
+	virtual ~MobilePhone();
 	
 	void show() override;
 private:

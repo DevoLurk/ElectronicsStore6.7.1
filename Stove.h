@@ -15,7 +15,7 @@ public:
 
 protected:
     int _temp;                  // максимальная температура нагрева
-	int stoveSize;              // обьем литров
+	int size;              // обьем литров
 
 private:
 	int price;                  // цена

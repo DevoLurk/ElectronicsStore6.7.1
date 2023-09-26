@@ -4,16 +4,16 @@ Microwave::Microwave() = default;
 
 Microwave::Microwave(int power) : _power(power) 
 {
-	size = random(3, 5);                            // случайный обьем от 3 до 5 литров
-	price = random(2000, 6000);                     // случайная цена от 2к до 6к
-	mnfacturer = manufacturer[random(0, 9)];        // случайный производитель (1 из 10)
+	size = random(3, 5);                            // СЃР»СѓС‡Р°Р№РЅС‹Р№ РѕР±СЊРµРј РѕС‚ 3 РґРѕ 5 Р»РёС‚СЂРѕРІ
+	price = random(2000, 6000);                     // СЃР»СѓС‡Р°Р№РЅР°СЏ С†РµРЅР° РѕС‚ 2Рє РґРѕ 6Рє
+	mnfacturer = manufacturer[random(0, 9)];        // СЃР»СѓС‡Р°Р№РЅС‹Р№ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ (1 РёР· 10)
 }
 
 void Microwave::show()
 {
-	std::cout << "\033[33m    Микроволновка \033[0m" << std::endl;
-	std::cout << "Мощность(Вт):        " << _power << std::endl;
-	std::cout << "Обьем в литрах:      " << size << std::endl;
-	std::cout << "Цена:                " << price << std::endl;
-	std::cout << "Производитель:       " << mnfacturer << std::endl;
+	std::cout << "\033[33m    РњРёРєСЂРѕРІРѕР»РЅРѕРІРєР° \033[0m" << std::endl;
+	std::cout << "РњРѕС‰РЅРѕСЃС‚СЊ(Р’С‚):        " << _power << std::endl;
+	std::cout << "РћР±СЊРµРј РІ Р»РёС‚СЂР°С…:      " << size << std::endl;
+	std::cout << "Р¦РµРЅР°:                " << price << std::endl;
+	std::cout << "РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ:       " << mnfacturer << std::endl;
 }

@@ -3,7 +3,7 @@
 
 #include"IElectronics.h"
 
-// микроволновка
+// РјРёРєСЂРѕРІРѕР»РЅРѕРІРєР°
 
 class Microwave : virtual public IElectronics
 {
@@ -13,12 +13,12 @@ public:
 	void show() override;
 
 protected:
-    int _power;                  // мощность ватт
+    int _power;                 // РјРѕС‰РЅРѕСЃС‚СЊ РІР°С‚С‚
 
 private:
-	int size;                   // обьем литров
-	int price;                  // цена
-	std::string mnfacturer;     // производитель
+	int size;                   // РѕР±СЊРµРј Р»РёС‚СЂРѕРІ
+	int price;                  // С†РµРЅР°
+	std::string mnfacturer;     // РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
 };
 
 #endif // MICROWAVE

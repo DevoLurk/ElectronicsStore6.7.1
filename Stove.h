@@ -3,7 +3,7 @@
 
 #include"IElectronics.h"
 
-// простая духовка
+// РїСЂРѕСЃС‚Р°СЏ РґСѓС…РѕРІРєР°
 
 class Stove : virtual public IElectronics
 {
@@ -14,13 +14,13 @@ public:
 	void show() override;
 
 protected:
-    int _temp;                  // максимальная температура нагрева
-	int stoveSize;                   // обьем литров
+    int _temp;                  // РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ С‚РµРјРїРµСЂР°С‚СѓСЂР° РЅР°РіСЂРµРІР°
+	int stoveSize;              // РѕР±СЊРµРј Р»РёС‚СЂРѕРІ
 
 private:
-	int price;                  // цена
-	bool _grill;                 // наличие гриля
-	std::string mnfacturer;     // мроизводитель
+	int price;                  // С†РµРЅР°
+	bool _grill;                // РЅР°Р»РёС‡РёРµ РіСЂРёР»СЏ
+	std::string mnfacturer;     // РјСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
 };
 
 #endif // STOVE

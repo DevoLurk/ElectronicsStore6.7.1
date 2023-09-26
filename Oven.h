@@ -4,7 +4,7 @@
 #include"Microwave.h"
 #include"Stove.h"
 
-// духовка с фукцией микроволновки
+// РґСѓС…РѕРІРєР° СЃ С„СѓРєС†РёРµР№ РјРёРєСЂРѕРІРѕР»РЅРѕРІРєРё
 
 class Oven final : public Microwave, Stove
 {
@@ -14,8 +14,8 @@ public:
     void show() override;
 
 private:
-	int price;                  // цена
-	std::string mnfacturer;     // мроизводитель
+	int price;                  // С†РµРЅР°
+	std::string mnfacturer;     // РјСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
 };
 
 #endif // OVEN
